@@ -1,0 +1,18 @@
+.footer {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 30px;
+    background-color: #d3d3d1;
+    gap: 15px;
+    padding-inline: 20px;
+}
+
+.footer h2{
+    text-align: center;
+}
+
+.footer img{
+    width: 50px;
+}

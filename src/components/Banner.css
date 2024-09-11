@@ -1,0 +1,51 @@
+.banner{
+    display: flex;
+    position: relative;
+    background-image: linear-gradient( 45deg, rgba(58,90,152.3),rgba(58,90,152,.3));
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.banner h1{ 
+    color: #ffffff;
+    font-size: 3rem;
+    text-shadow: 8px 8px 15px black;
+
+}
+
+.banner h2{ 
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 8px 8px 15px black;
+}
+
+.banner .container_texto{
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+
+@media (max-width: 672px){
+    .banner h1{ 
+        color: #ffffff;
+        font-size: 2rem;
+        text-shadow: 8px 8px 15px black;
+    
+    }
+
+    .banner .container_texto{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        display: flex;
+        flex-flow: column;
+        gap: 15px;
+    }
+}
