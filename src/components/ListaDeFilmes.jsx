@@ -74,6 +74,10 @@ const handleCadastrarFilme = async (e) =>{
     poster: "",
     anoLancamento: ""
   })
+
+  setTimeout(() =>{
+    setMsgSucesso("")
+  },5000)
 }
 
 
